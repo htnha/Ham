@@ -8,7 +8,11 @@ int tinhTong(int n){
     }
     return tong;
 }
-
+//1: Tính S(n) = 1 + 2 + 3 + … + n //tongBai1
+//2: Tính S(n) = 1^2 + 2^2 + … + n^2 //tongBai2
+//3: Tính S(n) = 1 + ½ + 1/3 + … + 1/n
+//4: Tính S(n) = ½ + ¼ + … + 1/2n
+//5: Tính S(n) = 1 + 1/3 + 1/5 + … + 1/(2n + 1)
 int main() {
     int n;
     printf("Nhap so n=");
